@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.SqlClient;
 
 namespace SchoolHouseRock1
 {
@@ -13,5 +14,12 @@ namespace SchoolHouseRock1
         public int ID { get; set; }
 
         public bool HeadInstructorStatus { get; set; }
+
+        public Instructor() { }
+
+        public Instructor(SqlDataReader reader)
+        {
+
+        }
     }
 }

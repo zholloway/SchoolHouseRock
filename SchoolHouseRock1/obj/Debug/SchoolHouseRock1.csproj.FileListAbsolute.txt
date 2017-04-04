@@ -1,0 +1,6 @@
+c:\users\zack holloway\documents\visual studio 2017\Projects\SchoolHouseRock1\SchoolHouseRock1\bin\Debug\SchoolHouseRock1.exe.config
+c:\users\zack holloway\documents\visual studio 2017\Projects\SchoolHouseRock1\SchoolHouseRock1\bin\Debug\SchoolHouseRock1.exe
+c:\users\zack holloway\documents\visual studio 2017\Projects\SchoolHouseRock1\SchoolHouseRock1\bin\Debug\SchoolHouseRock1.pdb
+c:\users\zack holloway\documents\visual studio 2017\Projects\SchoolHouseRock1\SchoolHouseRock1\obj\Debug\SchoolHouseRock1.csprojResolveAssemblyReference.cache
+c:\users\zack holloway\documents\visual studio 2017\Projects\SchoolHouseRock1\SchoolHouseRock1\obj\Debug\SchoolHouseRock1.exe
+c:\users\zack holloway\documents\visual studio 2017\Projects\SchoolHouseRock1\SchoolHouseRock1\obj\Debug\SchoolHouseRock1.pdb

@@ -13,10 +13,7 @@ namespace SchoolHouseRock1
 
         static void Main(string[] args)
         {
-            using (var connection = new SqlConnection(PathToDotNetUniversity))
-            {
-
-            }
+            Console.ReadLine();
         }
     }
 }
