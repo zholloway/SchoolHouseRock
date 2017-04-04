@@ -19,7 +19,9 @@ namespace SchoolHouseRock1
 
         public Instructor(SqlDataReader reader)
         {
-
+            this.Name = reader["Name"].ToString();
+            this.ID = (int)reader["ID"];
+            this.HeadInstructorStatus = (bool)reader["HeadInstructorStatus"];                
         }
     }
 }

@@ -16,5 +16,15 @@ namespace SchoolHouseRock1
         public int ID { get; set; }
 
         public int CourseNumber { get; set; }
+
+        public Course() { }
+
+        public Course(SqlDataReader reader)
+        {
+            this.Name = reader["Name"].ToString();
+            this.InstructorCode = (int)reader["InstructorCode"];
+            this.ID = (int)reader["ID"];
+            this.CourseNumber = (int)reader["CourseNumber"];
+        }
     }
 }
