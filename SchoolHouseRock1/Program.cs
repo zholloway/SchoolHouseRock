@@ -68,7 +68,7 @@ namespace SchoolHouseRock1
                 while (reader.Read())
                 {
                     var department = new Department(reader);
-                    courseList.Add(department);
+                    departmentList.Add(department);
                 }
 
                 connection.Close();
@@ -79,7 +79,12 @@ namespace SchoolHouseRock1
 
         static void Main(string[] args)
         {
-            
+            var iList = PopulateInstructor();
+            var cList = PopulateCourse();
+            var dList = PopulateDepartment();
+
+            Console.WriteLine("The number of courses is: " + cList.Count);
+            Console.WriteLine("The number of instructors is: " + iList.Count);
 
             Console.ReadLine();
         }
